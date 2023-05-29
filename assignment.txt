@@ -37,3 +37,11 @@ answer
 3). // is Floor division operator which is used to find integer value after the division of two number 
 4). ** Exponentiation is used for power operation in maths
 
+Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the
+element and its data type.
+solution 
+lst = list(map(int, input("Enter the integer \ element :").strip().split()))[:n]
+# where n is the length of list 
+print("the list is :",lst)
+for i in lst:
+   print(i)
