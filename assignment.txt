@@ -40,8 +40,30 @@ answer
 Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the
 element and its data type.
 solution 
-lst = list(map(int, input("Enter the integer \ element :").strip().split()))[:n]
+lst = [1,2,3,4,4.5,True,1+4j,"smile",4,5,6]
 # where n is the length of list 
 print("the list is :",lst)
 for i in lst:
    print(i)
+
+Q5. Using a while loop, verify if the number A is purely divisible by number B and if so then how many
+times it can be divisible.
+a = int(input("enter the first variable: "))
+b = int(input("Enter the second variable: "))
+count = 0
+while a%b == 0 :
+    a/=b
+    count += 1
+if count >0:
+   print("{a } is divisibleb y  {b} , {count} times")    
+else :
+   print("{a } is not divisible by {b}")
+
+Q6. Create a list containing 25 int type data. Using for loop and if-else condition print if the element is
+divisible by 3 or not.
+lst = list(map(int, input("Enter the element of list:").strip().split()))[:n]   
+for i in lst:
+if i%3 == 0   
+   print("{i} is divisible by 3")
+else :
+   print("{i} is not divisible by 3")   
