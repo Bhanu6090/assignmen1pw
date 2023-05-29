@@ -67,3 +67,17 @@ if i%3 == 0
    print("{i} is divisible by 3")
 else :
    print("{i} is not divisible by 3")   
+
+Q7. What do you understand about mutable and immutable data types? Give examples for both showing
+this property.
+answer
+ Mutable and immutable are terms used to describe the ability to modify or change an object after it is created. In programming, mutable data types can be modified, while immutable data types cannot be changed once they are created.
+
+ Immutable Data Types:
+
+   Strings: In Python, strings are immutable. Once a string object is created, you cannot modify its characters. However, you can create a new string by concatenation or using string methods.
+   Tuples: Tuples are also immutable in Python. Once a tuple is created, you cannot add, remove, or modify its elements.
+ Mutable Data Types:
+   lists: Lists in Python are mutable, meaning you can modify their elements, add new elements, or remove existing ones.
+   Dictionaries: Dictionaries in Python are also mutable. You can modify the values associated with keys, add new key-value pairs, or remove existing ones.
+   The distinction between mutable and immutable data types is important because it affects how you handle and manipulate data in your programs. Immutable objects are useful in scenarios where you want to ensure the integrity of data, while mutable objects provide flexibility for modifying data as needed.
